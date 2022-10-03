@@ -1,0 +1,180 @@
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-cont {
+  display: flex;
+  border: 3px solid rgb(0, 0, 0);
+  justify-content: space-between;
+  padding-right: 3%;
+  padding-left: 1%;
+  align-items: center;
+}
+
+.newBook {
+  width: 100%;
+}
+
+#list-cont {
+  width: 96.4%;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  align-items: center;
+}
+
+.cont h1 {
+  font-size: 40px;
+}
+
+.contact-section h1 {
+  font-size: 35px;
+  margin-top: 0%;
+}
+
+#list-cont h1 {
+  text-align: center;
+}
+
+.book-cont p {
+  margin: 10%;
+}
+
+hr {
+  margin: 5%;
+}
+
+.book-details {
+  display: flex;
+  gap: 5px;
+}
+
+.remove {
+  height: 10%;
+}
+
+input {
+  width: 100%;
+  font-size: 20px;
+  padding: 1.5%;
+  border: 3px solid;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+}
+
+.form-cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  margin-bottom: 10%;
+}
+
+.add {
+  align-self: flex-end;
+  width: 20%;
+  padding: 1%;
+  font-size: 20px;
+  border: 3px solid;
+}
+
+form h2 {
+  margin-top: 20%;
+  font-size: 40px;
+}
+
+nav {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4%;
+  border: solid;
+  margin-left: 1.5%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  margin: 0%;
+  font-size: 25px;
+}
+
+.title-h1 {
+  margin: 0%;
+  margin-left: 2%;
+  font-size: 25px;
+}
+
+.sections-cont {
+  display: flex;
+  justify-content: end;
+  width: 40%;
+  margin: 0%;
+  margin-right: 0%;
+}
+
+.border-sep {
+  border-right: 3px solid;
+  padding: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.contact-a {
+  padding: 2%;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0%;
+  margin-bottom: 10%;
+}
+
+.contact-section p {
+  font-size: 20px;
+}
+
+.contact-section li {
+  font-size: 20px;
+}
+
+.contact-section li a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer {
+  display: flex;
+  border: 3px solid;
+}
+
+footer h2 {
+  margin: 1%;
+  margin-left: 3%;
+}
+
+.time {
+  margin-right: 2%;
+  text-align: end;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-flex {
+  display: flex;
+}
